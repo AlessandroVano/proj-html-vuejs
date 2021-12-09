@@ -1,8 +1,13 @@
 <template>
   <div id="app">
-   <Header />
+    <header>
+       <Header />
+    </header>
+    <main>
+       <WelcomeToAvadaHealth />
 
-   <Main />
+    </main>
+
 
    <Footer />
 
@@ -11,7 +16,7 @@
 
 <script>
 import Header from '@/components/Header.vue'
-import Main from '@/components/Main.vue'
+import WelcomeToAvadaHealth from '@/components/WelcomeToAvadaHealth.vue'
 import Footer from '@/components/Footer.vue'
 
 
@@ -19,7 +24,7 @@ export default {
   name: 'App',
   components: {
    Header,
-   Main,
+   WelcomeToAvadaHealth,
    Footer,
   }
 }
