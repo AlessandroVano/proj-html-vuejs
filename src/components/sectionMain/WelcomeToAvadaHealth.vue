@@ -7,7 +7,7 @@
           <p class="p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo </p>
       </section> 
     <!-- sezione icon + text + p -->
-      <section class="d-flex col-12 my-3">
+      <section class="d-flex my-5 distance">
         <div v-for="(card, index) in cards" :key="`card ${index}`">
           <CardAvadaHealth :url="card.img" :title="card.title" :text="card.text" />
         </div>
@@ -26,6 +26,7 @@ export default {
     components: {
       CardAvadaHealth,
     },
+
     data() {
       return {
         cards: IconAvadaHealth,
@@ -39,9 +40,6 @@ export default {
 @import '@/styles/utilities';
 
 .title_p {
-  margin-left: 25%;
+  margin-left: 25%; 
 }
-
-
-
 </style>
