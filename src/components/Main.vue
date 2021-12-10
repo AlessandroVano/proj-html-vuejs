@@ -7,6 +7,8 @@
   <OurHealthServices />
 
   <TourOurFacilities />
+
+  <CareDiagnosticsRehabilitation />
   
 </div>
   
@@ -17,6 +19,7 @@ import WelcomeToAvadaHealth from '@/components/sectionMain/WelcomeToAvadaHealth.
 import MeetOurDoctors from '@/components/sectionMain/MeetOurDoctors.vue'
 import OurHealthServices from '@/components/sectionMain/OurHealthServices.vue'
 import TourOurFacilities from '@/components/sectionMain/TourOurFacilities.vue'
+import CareDiagnosticsRehabilitation from '@/components/sectionMain/CareDiagnosticsRehabilitation.vue'
 
 export default {
     name: 'Main',
@@ -25,6 +28,7 @@ export default {
         MeetOurDoctors,
         OurHealthServices,
         TourOurFacilities,
+        CareDiagnosticsRehabilitation,
     }
 
 }
