@@ -11,6 +11,8 @@
   <CareDiagnosticsRehabilitation />
 
   <MakeAnAppointment />
+
+  <SectionBgImg />
   
 </div>
   
@@ -23,6 +25,8 @@ import OurHealthServices from '@/components/sectionMain/OurHealthServices.vue'
 import TourOurFacilities from '@/components/sectionMain/TourOurFacilities.vue'
 import CareDiagnosticsRehabilitation from '@/components/sectionMain/CareDiagnosticsRehabilitation.vue'
 import MakeAnAppointment from '@/components/sectionMain/MakeAnAppointment.vue'
+import SectionBgImg from '@/components/sectionMain/SectionBgImg.vue'
+
 
 export default {
     name: 'Main',
@@ -33,6 +37,7 @@ export default {
         TourOurFacilities,
         CareDiagnosticsRehabilitation,
         MakeAnAppointment,
+        SectionBgImg,
     }
 
 }

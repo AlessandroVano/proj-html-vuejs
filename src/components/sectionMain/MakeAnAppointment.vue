@@ -23,7 +23,7 @@
               <input class="mt-5 px-5" type="text" placeholder="Appointment Date" />
               <textarea class="mt-5 px-5 py-2" name="" id="" cols="55" rows="4" placeholder="How can we help?*"></textarea>
             </div>
-                <button class="btn_1 mt-5 py-3 mb-5">Make an appointment</button>
+                <button class="btn_1 mt-5 py-3">Make an appointment</button>
           </div>
         </div>
       </div>
@@ -46,7 +46,9 @@ export default {
   height:1070px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:center;
   background-position-y: -130px;
+  margin-bottom: -130px;
  
 }
 .title_p {
