@@ -19,9 +19,9 @@
         <div class="col-3 ee_1">
           <h5>CONTACT INFORMATION</h5>
            <div class="separator_2">_____</div>
-          <span> <i class="fas fa-map-marker-alt me-2 i_5 ms-1"></i>
-          121 King Street, London United Kingdom</span>
-          <span> <i class="fas fa-phone me-2 i_5 ms-1"></i>1.800.458.556</span>
+          <p> <i class="fas fa-map-marker-alt me-2 i_5 ms-1"></i>
+          121 King Street, London United Kingdom</p>
+          <p> <i class="fas fa-phone me-2 i_5 ms-1"></i>1.800.458.556</p>
         </div>
 
         <div class="col-3">

@@ -1,6 +1,8 @@
 <template>
-  <div class="card  m-4">
+  <div class="card m-4">
+    <div class="hover">
        <img  :src="require(`../../assets/${url}`)" :alt="title"> 
+    </div>
       <h4 class="me-4 mt-4 my-3 px-4"> {{name}} </h4>
        <h5 class="me-4 mb-5 px-4"> {{title}} </h5>
       <p class=" px-4 me-4"> {{text}} </p>
@@ -52,6 +54,9 @@ props: {
   color: white;
   border-radius: 6px;
   
+}
+img {
+  width: 100%;
 }
 
 
