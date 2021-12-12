@@ -25,7 +25,41 @@
 } 
 h5 {
     font-size: 18px;
+    text-transform: uppercase;
 }
+
+// p / span
+
+span {
+    font-size: 13px;
+}
+
+// a
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+     font-size: $base-font;
+      color: $color-text-2;
+    &.active,
+    &:hover {
+       color: $color-btn ;
+       transition: color .4s;
+
+     }   
+  }
+  .a_1 {
+    text-decoration: none;
+    text-transform: uppercase;
+     font-size: $base-font;
+    &.active,
+    &:hover {
+       color: $color-btn ;
+       transition: color .4s;
+       cursor: pointer;
+
+     }   
+  }
 
 
 // separatore
@@ -33,5 +67,9 @@ h5 {
 .separator {
     color: #b6b5b5;
    
+    margin-bottom: 20px;
+}
+.separator_2 {
+    color: $bg-color-4;
     margin-bottom: 20px;
 }
