@@ -79,3 +79,5 @@ export const IconOurHealthServices = [
     },
     
 ]
+
+export const arrayHeader = ['home', 'about', 'departments', 'articles']

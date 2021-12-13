@@ -8,17 +8,8 @@
 
       <div class="d-flex">
         <ul>
-          <li>
-            <a href="/"> Home </a>
-          </li>
-          <li>
-            <a href="/"> About </a>
-          </li>
-          <li>
-            <a href="/"> Departments </a>
-          </li>
-          <li>
-            <a href="/"> Articles </a>
+          <li v-for="(card, index) in cards" :key="`card ${index}`">
+            <CardHeader :text="card" />
           </li>
         </ul>
 
@@ -48,8 +39,20 @@
 </template>
 
 <script>
+import CardHeader from "@/components/card/CardHeader.vue";
+import { arrayHeader } from "@/devData/arrayGeneral.js";
 export default {
   name: "Header",
+
+  components: {
+    CardHeader,
+  },
+
+  data() {
+    return {
+      cards: arrayHeader,
+    };
+  },
 };
 </script>
 
@@ -60,7 +63,7 @@ export default {
 //  Stile sezione logo e utility
 section {
   background-image: url(../assets/header-image-homepage.jpg);
-  height: 90vh;
+  height: 800px;
   background-size: cover;
 
   img {

@@ -1,7 +1,9 @@
 <template>
   <div>
-    <img :src="require(`../../assets/${url}`)" :alt="title" />
-    <h5 class="my-3">{{ title }}</h5>
+    <div class="a_1">
+      <img :src="require(`../../assets/${url}`)" :alt="title" />
+      <h5 class="my-3">{{ title }}</h5>
+    </div>
     <p>{{ text }}</p>
   </div>
 </template>

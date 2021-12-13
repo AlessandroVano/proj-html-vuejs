@@ -17,13 +17,32 @@
         <div class="container">
           <div class="row">
             <div class="d-flex boxes flex-wrap">
-              <input class="me-5 mt-5 px-5 py-2" type="text"  placeholder="Name*" />
+              <input
+                class="me-5 mt-5 px-5 py-2"
+                type="text"
+                placeholder="Name*"
+              />
               <input class="mt-5 px-5" type="text" placeholder="Email*" />
-              <input class="me-5 mt-5 px-5 py-2" type="text" placeholder="Phone Number" />
-              <input class="mt-5 px-5" type="text" placeholder="Appointment Date" />
-              <textarea class="mt-5 px-5 py-2" name="" id="" cols="55" rows="4" placeholder="How can we help?*"></textarea>
+              <input
+                class="me-5 mt-5 px-5 py-2"
+                type="text"
+                placeholder="Phone Number"
+              />
+              <input
+                class="mt-5 px-5"
+                type="text"
+                placeholder="Appointment Date"
+              />
+              <textarea
+                class="mt-5 px-5 py-2"
+                name=""
+                id=""
+                cols="55"
+                rows="4"
+                placeholder="How can we help?*"
+              ></textarea>
             </div>
-                <button class="btn_1 mt-5 py-3">Make an appointment</button>
+            <button class="btn_1 mt-5 py-3">Make an appointment</button>
           </div>
         </div>
       </div>
@@ -43,22 +62,21 @@ export default {
 
 .bg {
   background-image: url(../../assets/make-an-appointment.jpg);
-  height:1070px;
+  height: 1070px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-position-y: -130px;
   margin-bottom: -130px;
- 
 }
 .title_p {
   margin-top: 150px;
   color: white;
 }
- 
+
 .boxes {
   width: 80%;
-margin-left: 23%;
+  margin-left: 23%;
 }
 input {
   border: 2px solid $color-text-1;
@@ -74,7 +92,5 @@ textarea {
 button {
   width: 702px;
   margin-left: 315px;
-  
 }
-
 </style>

@@ -1,31 +1,6 @@
 <template>
   <section class="d-flex">
-    <!--   <div class="bg-1 d-flex">
 
-
-           <div class="boxes-1">
-               <h4>Emergency Care</h4>
-               <img src="../../assets/wave-divider.png" alt="">
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
-                <button>LEARN MORE</button>
-           </div>
-       </div>
-       <div class="bg-1 d-flex">
-           <div class="boxes-1">
-               <h4>Emergency Care</h4>
-               <img src="../../assets/wave-divider.png" alt="">
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
-                <button>LEARN MORE</button>
-           </div>
-       </div>
-       <div class="bg-1 d-flex">
-           <div class="boxes-1">
-               <h4>Emergency Care</h4>
-               <img src="../../assets/wave-divider.png" alt="">
-               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque</p>
-                <button>LEARN MORE</button>
-           </div>
-       </div> -->
 
     <div class="text-center boxes-1">
       <h4 class="pt-5 pb-2">Emergency Care</h4>
